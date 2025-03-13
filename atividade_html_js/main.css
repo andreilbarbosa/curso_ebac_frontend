@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho{
+    margin: 35px 10px;
+}
+
+.cabecalho h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cabecalho h3{
+    color: rgb(12, 48, 255);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+form input, button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 19px;
+    width: 500px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+#form-campos h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+button{
+    background-color: rgb(89, 0, 255);
+    color: azure;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(110, 32, 255);
+    transition: 0.5s;
+}
+
+.success-message{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: green;
+    color: whitesmoke;
+    padding: 8px;
+    font-size: 22px;
+    width: 100%;
+    max-width: 500px;
+    border-color: green;
+    outline-color: green;
+    border-radius: 12px;
+    display: none;
+}
+
+.error-message{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(223, 0, 0);
+    color: whitesmoke;
+    padding: 8px;
+    font-size: 22px;
+    width: 100%;
+    max-width: 500px;
+    border-color: rgb(204, 0, 0);
+    outline-color: rgb(204, 0, 0);
+    border-radius: 12px;
+    display: none;
+}

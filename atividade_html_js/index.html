@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade HTML com JS</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="cabecalho">
+                <h1>Medidor de Valores</h1>
+                <h3>Por favor, lembre que o campo B tem que ser maior que o A</h3>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="conteudo">
+                <form id="form-campos">
+                    <h3>Campo A</h3>
+                    <input type="number" id="campo-A"  min="0" placeholder="Digite o valor:">
+                    <h3>Campo B</h3>
+                    <input type="number" id="campo-B" min="0" placeholder="Digite o valor:">
+                    <button type="submit" id="btn-enviar">ENVIAR</button>
+                </form>
+                <p class="success-message">
+                    Tudo certo. O valor A "<b>valueA</b>" é menor do que o valor B "<b>valueB</b>". 
+                </p>
+                <p class="error-message">
+                    Por favor, tente novamente. O valor A "<b>valueA</b>" é maior do que o valor B "<b>valueB</b>". 
+                </p>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
