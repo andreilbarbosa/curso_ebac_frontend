@@ -14,21 +14,19 @@
     <main>
         <div class="container">
             <div class="box">
-                <form>
+                <form id="add-tarefas">
+                    <button type="reset" id="botao-reset">resetar</button>
                     <input type="text" id="input-tarefa" required placeholder="Digite sua tarefa" />
                     <button type="submit" id="botao-enviar">+</button>
                 </form>
-                <ul>
+                <ul id="Lista">
                     <li>
-                        <form class="atividade">
-                            <p>Estudar</p>
-                            <input type="checkbox"/>
-                        </form>
                     </li>
                 </ul>
             </div>
         </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>
