@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: radial-gradient(circle, #292929, #000000);
+}
+
+header{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header h2{
+    margin-top: 20px;
+    color: aliceblue;
+    cursor: default;
+}
+
+header h4{
+    margin-top: 8px;
+    color: rgb(219, 0, 0);
+    font-weight: bold;
+    cursor: default;
+}
+
+header h4:hover{
+    color: rgb(255, 0, 0);
+    transition: ease-in .3s;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    margin: 0 auto;
+}
+
+.box{
+    padding: 20px;
+    text-align: center;
+    height: 220px;
+    width: 480px;
+    border: 3px solid rgb(27, 27, 27);
+    border-radius: 12px;
+    box-shadow: 1px 1px rgb(15, 15, 15);
+    background-color: #1d1d1d;
+}
+
+#input-tarefa{
+    padding: 8px;
+    height: 24px;
+    width: 212px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+#botao-enviar{
+    background-color: rgb(81, 221, 0);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    height: 24px;
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#botao-enviar:hover{
+    background-color: rgb(64, 175, 0);
+    transition: ease-in .3s;
+}
+
+.atividade{
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+    color: rgb(240, 240, 240);
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+ul{
+    list-style: none;
+}
+
