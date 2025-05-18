@@ -1,13 +1,12 @@
-### Exercicio To do List EBAC
-#### Nessa atividade, eu terei que:
+### Prática do módulo Fundamentos do Bootstrap.
+#### A entrega deste exercício consiste em:
 
-1) Criar uma aplicação de lista de tarefas contendo um formulário com um campo para adicionar o nome da tarefa e um botão para cadastrar a tarefa.
+> Adicionar o Bootstrap em uma página HTML utilizando a CDN;
 
-2) Ao submeter o formulário, adicione um elemento <li> dentro de
-uma lista ordenada ou não.
+> Nesta página HTML, crie um formulário de cadastro que deverá conter os campos: nome, e-mail e telefone, e um botão para o envio;
 
-3) Ao clicar nos itens da lista, adicione um efeito que aplique uma linha em cima do texto (text-decoration: line-through).
+> Aplique as classes do Bootstrap nos elementos do formulário;
 
-4) Utilize o jQuery para manipular os elementos e controlar os eventos.
+> Crie uma branch chamada exercicio_bootstrap no repositório do curso;
 
-5) Crie uma branch chamada exercício_jquery no repositório do curso e nos envie o link através da plataforma. 
+> Enviar o link através da plataforma.
