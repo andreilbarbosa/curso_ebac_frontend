@@ -9,4 +9,4 @@
 
 > Crie uma branch chamada exercicio_bootstrap no repositório do curso;
 
-> Enviar o link através da plataforma.
+> Enviar o link do repositório através da plataforma.
