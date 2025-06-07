@@ -1,12 +1,12 @@
-### Prática do módulo Fundamentos do Bootstrap.
+### Prática do módulo Introdução ao SASS.
 #### A entrega deste exercício consiste em:
 
-> Adicionar o Bootstrap em uma página HTML utilizando a CDN;
+> Converter o CSS do projeto disponibilizado na área "Material de apoio" para o SASS;
 
-> Nesta página HTML, crie um formulário de cadastro que deverá conter os campos: nome, e-mail e telefone, e um botão para o envio;
+> Utilizar as variáveis do SASS;
 
-> Aplique as classes do Bootstrap nos elementos do formulário;
+> Utilizar os módulos do SASS;
 
-> Crie uma branch chamada exercicio_bootstrap no repositório do curso;
+> Criar uma branch chamada exercicio_sass no repositório do curso;
 
-> Enviar o link do repositório através da plataforma.
+> Armazenar os arquivos SASS nesta branch e enviar o link do repositório através da plataforma.
