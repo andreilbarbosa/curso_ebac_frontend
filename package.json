@@ -1,15 +1,19 @@
 {
-  "name": "exercicio_sass",
+  "name": "npm",
   "version": "1.0.0",
-  "description": "Atividade do módulo (Introducao ao SASS) - EBAC",
-  "main": "index.js",
+  "description": "> Criar um arquivo Gulpfile que deverá executar as tarefas:",
+  "main": "gulpfile.js",
   "scripts": {
-    "sass": "sass source/main.scss build/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Andrei",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreilbarbosa/curso_ebac_frontend.git"
+  },
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "sass": "^1.89.1"
-  }
+  "bugs": {
+    "url": "https://github.com/andreilbarbosa/curso_ebac_frontend/issues"
+  },
+  "homepage": "https://github.com/andreilbarbosa/curso_ebac_frontend#readme"
 }

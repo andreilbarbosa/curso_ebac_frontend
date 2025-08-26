@@ -1,12 +1,16 @@
-### Prática do módulo Introdução ao SASS.
+### Prática do módulo Automatize tarefas com Gulp.
 #### A entrega deste exercício consiste em:
 
-> Converter o CSS do projeto disponibilizado na área "Material de apoio" para o SASS;
+> Criar um arquivo Gulpfile que deverá executar as tarefas:
 
-> Utilizar as variáveis do SASS;
+> compilação do SASS;
 
-> Utilizar os módulos do SASS;
+> compressão de imagens disponibilizadas no Material de apoio;
 
-> Criar uma branch chamada exercicio_sass no repositório do curso;
+> compressão de código JavaScript;
 
-> Armazenar os arquivos SASS nesta branch e enviar o link do repositório através da plataforma.
+> Criar um branch chamada exercicio_gulp;
+
+> Armazenar o projeto completo, incluindo o arquivo Gulpfile, neste branch;
+
+> Enviar o link do repositório através da plataforma.
