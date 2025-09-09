@@ -1,16 +1,18 @@
-### Prática do módulo Automatize tarefas com Gulp.
+### Prática do módulo Introduçào ao LESS.
 #### A entrega deste exercício consiste em:
 
-> Criar um arquivo Gulpfile que deverá executar as tarefas:
+> Converter o estilo do projeto disponibilizado no Material de apoio para o LESS;
 
-> compilação do SASS;
+##### Utilizar os recursos do LESS que aprendeu durante o módulo:
 
-> compressão de imagens disponibilizadas no Material de apoio;
+> variáveis;
 
-> compressão de código JavaScript;
+> divisão dos arquivos;
 
-> Criar um branch chamada exercicio_gulp;
+> escapings;
 
-> Armazenar o projeto completo, incluindo o arquivo Gulpfile, neste branch;
+> mapas.
 
-> Enviar o link do repositório através da plataforma.
+> Crie uma branch chamada exercicio_less no repositório do curso;
+
+> Armazene os arquivos LESS nesta branch.

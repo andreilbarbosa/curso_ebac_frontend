@@ -1,1 +1,0 @@
-function helloGulp(l){console.log("Hello, Gulp!"),l()}

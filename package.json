@@ -1,10 +1,11 @@
 {
   "name": "exercicio_gulp",
   "version": "1.0.0",
-  "description": "> Criar um arquivo Gulpfile que deverá executar as automações de tarefas",
+  "description": "> Utilizar os recursos do LESS que aprendeu durante o módulo.",
   "main": "gulpfile.js",
   "scripts": {
     "gulp": "gulp",
+    "less": "less-watch-compiler source/styles build/styles main.less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,7 @@
     "gulp-sass": "^6.0.1",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
+    "less": "^4.4.1",
     "sass": "^1.91.0"
   }
 }
